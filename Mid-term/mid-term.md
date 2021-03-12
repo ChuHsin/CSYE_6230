@@ -53,4 +53,9 @@
 * Turnaround time: sum of period spend waiting to get in memory, waiting in ready queue, execution and I/O.
 * Waiting Time: Time process spends in ready queue.
 * Response Time: First time a response is produced.
-* 
+
+---
+### 4. Write code for a Shortest Job first algorithm where multiple threads run in a while loop sleep for a random time and add values inside a MinHeap. A scheduler will run in parallel and keep removing jobs with minimum time left and finish them. The Time slice for the execution is 3 ms. Each of these Threads will create 10 jobs.
+
+One while loop, multiple threads, each threads sleep for random time,and create 10 jobs, each job add a values inside a minheap.
+
