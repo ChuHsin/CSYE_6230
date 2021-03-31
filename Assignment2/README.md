@@ -17,4 +17,7 @@
 
   * Stack memory
 
+#### Ans: 
+The Heap Memory and Global Variables are shared across threads.
+
 * ### Write a program to pass parameters to a thread. in C# or Java. Your program should create 4 threads and each thread would be passed an integer value. The Program should loop and print the Thread name and loop number of times the integer is passed and in between your thread code  will sleep for 200 milliseconds. Your main program will wait for all the threads to finish and then exit. 
