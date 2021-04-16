@@ -1,4 +1,4 @@
-Consider the following snapshot of a system:                                
+### Consider the following snapshot of a system:                                
 
         Allocation	Max	    Available
             ABCD	ABCD	ABCD
@@ -8,8 +8,8 @@ Consider the following snapshot of a system:
     P3	    0632	0652	 
     P4	    0014	0656
 
-Answer the following questions using the banker’s algorithm:
-a. What is the content of the matrix Need?
+### Answer the following questions using the banker’s algorithm:
+#### a. What is the content of the matrix Need?
 **Answer:**
 
         Need
@@ -20,7 +20,7 @@ a. What is the content of the matrix Need?
     P3  0 0 2 0
     P4  0 6 4 2
 
-b. Is the system in a safe state? 
+#### b. Is the system in a safe state? 
 **Answer:** 
 Yes, it is safe.
 P0 Needs are all zero, so put allocations back to available.
@@ -30,7 +30,7 @@ P3 need < available
 P4 => P2 => P1 => End.
 
 
-c. If a request from thread P1 arrives for (0,4,2,0), can the request be
+#### c. If a request from thread P1 arrives for (0,4,2,0), can the request be
 granted immediately?
 **Answer:** 
 Yes, after process request from P1, the available becomes (1,1,0,0);
